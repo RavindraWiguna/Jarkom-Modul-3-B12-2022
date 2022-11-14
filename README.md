@@ -1,5 +1,10 @@
 # Jarkom-Modul-3-B12-2022
 
+Kelompok:
+Tio Dwi Ardhana - 5025201099
+Ahmad Hafizh Assa'ad - 5025201106
+Putu Ravindra Wiguna - 5025201237
+
 ## Soal 1
 Loid bersama Franky berencana membuat peta tersebut dengan kriteria WISE sebagai DNS Server, Westalis sebagai DHCP Server, Berlint sebagai Proxy Server (1)
 ### Cara Pengerjaan
