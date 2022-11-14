@@ -104,8 +104,8 @@ Saat akses internet dibuka, client dilarang untuk mengakses web tanpa HTTPS. (Co
 
 ### Cara Pengerjaan
 
-
-	==============================================
+```
+	
 WISE
 nano /etc/bind/named.conf.local dan masukan
 
@@ -159,12 +159,15 @@ nano /etc/squid/squid.conf dan tambahkan
     visible_hostname loid-work.com
     visible_hostname franky-work.com
     http_access allow all
+    
+  ```
 dan lakukan service squid restart
 
 ## Soal 11
 Agar menghemat penggunaan, akses internet dibatasi dengan kecepatan maksimum 128 Kbps pada setiap host (Kbps = kilobit per second; lakukan pengecekan pada tiap host, ketika 2 host akses internet pada saat bersamaan, keduanya mendapatkan speed maksimal yaitu 128 Kbps)
 ### Cara Pengerjaan
 
+```
 
 Berlin
 nano /etc/squid/acl-bandwidth.conf dan masukan
@@ -180,7 +183,7 @@ delay_parameters 2 128000/128000 128000/128000
 nano /etc/squid/squid.conf dan masukan
 
 include /etc/squid/acl-bandwidth.conf
-
+```
 lakukan service squid restart
 
 ====================================================================
